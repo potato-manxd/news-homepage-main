@@ -1,0 +1,121 @@
+
+header img{
+	display:none
+}
+
+
+header div a {
+display: inline-block;
+}
+
+.container {
+height: 1200px;
+width: 370px;
+grid-template-rows: 3% 32% 32% 32%;
+grid-template-columns: 97%;
+}
+
+h1 {
+grid-row: 1/2;
+}
+
+
+
+.img{
+width: 100%;
+grid-row: 1/2;
+}
+
+.hh {
+grid-row: 2/3;
+}
+
+section {
+column-gap: 30px;
+grid-template-columns: 25% 48% 25%;
+grid-template-rows: 49% 49% 2%;
+grid-row: 2/3;
+}
+
+section p {
+grid-row: 2/3;
+}
+
+.read {
+grid-row: 3/4;
+grid-column: 2/3;
+}
+
+a {
+display: none;
+}
+
+aside {
+grid-row: 3/4;
+padding: 20px;
+width: 95%;
+color: white;
+text-align: center;
+background-color: hsl(240, 100%, 5%);
+}
+
+aside p {
+opacity: .6;
+}
+
+aside a {
+color: white;
+display: inline-block;
+}
+
+.new {
+}
+
+h1 {
+}
+
+header {
+grid-column: 3/4;
+grid-row: 1/1;
+}
+
+
+footer {
+grid-column: 1/4;
+grid-row: 4/5;
+display: grid;
+grid-template-rows: 33% 33% 33%;
+}
+
+footer img {
+height: 100px;
+display: inline;
+}
+
+footer div{
+	width: 95%;
+}
+
+footer div > *{
+	display: inline;
+}
+
+.menu{
+position: absolute;
+z-index: 200;
+width: 230px;
+opacity: 2;
+height: 1200px;
+margin-left: 160px;
+margin-top: -70px;
+background-color: #FFF2F1;
+
+}
+
+.menu a{
+	opacity: 2;
+	display: block;
+	text-decoration: none;
+	color: black;
+	margin-top: 40px;
+}
